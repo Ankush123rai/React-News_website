@@ -6,7 +6,7 @@ import "react-multi-carousel/lib/styles.css";
 const Slider = () => {
     const [Data,setData]=useState([])
 
-    const API="https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=bd3602ddb31c4ab8b15d243c4876e574"
+    const API="https://newsapi.org/v2/top-headlines?country=in&apiKey=bd3602ddb31c4ab8b15d243c4876e574"
             
     const fetchNews = async (url)=>{
       const response=await fetch(url)
