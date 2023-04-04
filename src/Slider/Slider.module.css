@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+    background: #000;
+    position: relative;
+    margin: 1.5rem .5rem;
+}
+
+.background{
+   width: 100%;
+   height:400px;
+  
+}
+.headline{
+    position: absolute;
+    bottom: 1rem;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0 0 1rem 0;
+}
+.headline h1{
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.headline:hover{
+   color:red;
+}
